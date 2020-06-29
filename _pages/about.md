@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: self_pic.jpg
   address: >
     <p>Dept. of Computer Science</p>
     <p>Columbia University</p>
