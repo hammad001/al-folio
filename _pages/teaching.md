@@ -7,7 +7,7 @@ nav: true
 ---
 
 <br />
-##### <span style="color:gray">University of California San Diego</span>
+##### <span style="color:gray">University of California San Diego (TA)</span>
 ***
 
 |CSE 291D | Spring 2020   	   	| Advanced NLP |
@@ -18,7 +18,7 @@ nav: true
 |MGT 171 &nbsp; &nbsp; &nbsp; | Fall 2018 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Operations Management |
 
 <br />
-##### <span style="color:gray">Indian Institute of Technology, BHU</span>
+##### <span style="color:gray">Indian Institute of Technology, BHU (TA)</span>
 ***
 
 |CSO 101 &nbsp; &nbsp; &nbsp; | Winter 2016 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Computer Programming |
