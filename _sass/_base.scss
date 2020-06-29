@@ -121,8 +121,16 @@ a, table.table a {
 
 // News
 
-.news table td {
+.news table {
+  
+}
+td {
   font-size: 1rem;
+}
+th {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow:ellipsis;
 }
 
 

@@ -2,22 +2,22 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Dept. of Computer Science</p>
+    <p>Columbia University</p>
+    <p>New York, NY 10027</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year PhD student at the Dept. of Computer Sicence, [Columbia University](https://www.cs.columbia.edu/), advised by [Prof. Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests focuses on Artificial Intelligence, Computer Vision, Natural Language Processing and Commonsense Reasoning. Particularly, I am interested in finding out structured representation of the world from multi-modal data. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to joining Columbia, I finished my Master's at UC San Diego, advised by [Prof. Gary Cottrell](https://cseweb.ucsd.edu/~gary/). I also worked with [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/) and [Prof. David Kriegman](https://cseweb.ucsd.edu/~kriegman/) during that time. I finished my Bachelor's at Indian Institute of Technology, BHU ([IIT, BHU](https://www.iitbhu.ac.in/)).
