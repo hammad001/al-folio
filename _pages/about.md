@@ -16,8 +16,10 @@ news: true
 social: true
 ---
 
-I am a first year PhD student at the Dept. of Computer Sicence, [Columbia University](https://www.cs.columbia.edu/), advised by [Prof. Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/). 
+I am a fourth year PhD student at the Dept. of Computer Sicence, [Columbia University](https://www.cs.columbia.edu/), advised by [Prof. Shih-Fu Chang](https://www.ee.columbia.edu/~sfchang/). 
 
 My research interests focuses on Artificial Intelligence, Computer Vision, Natural Language Processing and Commonsense Reasoning. Particularly, I am interested in finding out structured representation of the world from multi-modal data. 
+
+Through my intenships at Google and Microsoft, I have been fortunate to collaborate with [Tianqi](https://scholar.google.com/citations?user=pUKhiMIAAAAJ&hl=en), [Arsha](https://a-nagrani.github.io/), [Mingda](https://people.cs.pitt.edu/~mzhang/), [Anurag](https://anuragarnab.github.io/), [Jianwei](https://jwyang.github.io/) and [Oriana](https://scholar.google.com/citations?user=Eo7-pZ4AAAAJ&hl=en).
 
 Prior to joining Columbia, I finished my Master's at UC San Diego, advised by [Prof. Gary Cottrell](https://cseweb.ucsd.edu/~gary/). I also worked with [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/) and [Prof. David Kriegman](https://cseweb.ucsd.edu/~kriegman/) during that time. I finished my Bachelor's at Indian Institute of Technology, BHU ([IIT, BHU](https://www.iitbhu.ac.in/)).

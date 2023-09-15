@@ -7,6 +7,13 @@ nav: true
 ---
 
 <br />
+##### <span style="color:gray">Columbia University (TA)</span>
+***
+
+|COMS W4733 &nbsp; &nbsp; &nbsp; | Spring 2023 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Computational Aspects of Robotics |
+|COMS W4995 &nbsp; &nbsp; &nbsp; | Fall 2022 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Deep Learning For Computer Vision |
+
+<br />
 ##### <span style="color:gray">University of California San Diego (TA)</span>
 ***
 
