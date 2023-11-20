@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# To run locally: bundle exec jekyll serve --lsi
 
 # Run this script to deploy the app to Github Pages
 
