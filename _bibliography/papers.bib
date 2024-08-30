@@ -60,17 +60,6 @@
     abstract={Recently convolutional networks have shown significant promise for modeling sequential user interactions for recommendations. Critically, such networks rely on fixed convolutional kernels to capture sequential behavior. In this paper, we argue that all the dynamics of the item-to-item transition in session-based settings may not be observable at training time. Hence we propose DynamicRec, which uses dynamic convolutions to compute the convolutional kernels on the fly based on the current input. We show through experiments that this approach significantly outperforms existing convolutional models on real datasets in session-based settings.}
 }
 
-@article{ayyubi2022mmevents,
-    abbr={ayyubi_mmevents.png},
-    title={Multimodal Event Graphs: Towards Event Centric Understanding of Multimodal World},
-    author={Hammad A. Ayyubi and Christopher Thomas and Lovish Chum and Rahul Lokesh and Yulei Niu and Xudong Lin and Long Chen and Jaywon Koo and Sounak Ray and Shih-Fu Chang},
-    year={2022},
-    journal={arXiv:2206.07207},
-    url={https://arxiv.org/pdf/2206.07207v1.pdf},
-    html={https://arxiv.org/pdf/2206.07207v1.pdf},
-    abstract={Understanding how events described or shown in multimedia content relate to one another is a critical component to developing robust artificially intelligent systems which can reason about real-world media. While much research has been devoted to event understanding in the text, image, and video domains, none have explored the complex relations that events experience across domains. For example, a news article may describe a `protest' event while a video shows an `arrest' event. Recognizing that the visual `arrest' event is a subevent of the broader `protest' event is a challenging, yet important problem that prior work has not explored. In this paper, we propose the novel task of MultiModal Event Event Relations to recognize such cross-modal event relations. We contribute a large-scale dataset consisting of 100k video-news article pairs, as well as a benchmark of densely annotated data. We also propose a weakly supervised multimodal method which integrates commonsense knowledge from an external knowledge base (KB) to predict rich multimodal event hierarchies. Experiments show that our model outperforms a number of competitive baselines on our proposed benchmark. We also perform a detailed analysis of our model's performance and suggest directions for future research.}
-}
-
 @article{chen2022wstag,
     abbr={chen_wstag.png},
     title={Weakly-Supervised Temporal Article Grounding},
@@ -117,4 +106,35 @@ IdealGPT: Iteratively Decomposing Vision and Language Reasoning via Large Langua
     abstract={The field of vision-and-language (VL) understanding has made unprecedented progress with end-to-end large pre-trained VL models (VLMs). However, they still fall short in zero-shot reasoning tasks that require multi-step inferencing. To achieve this goal, previous works resort to a divide-and-conquer pipeline. In this paper, we argue that previous efforts have several inherent shortcomings: 1) They rely on domain-specific sub-question decomposing models. 2) They force models to predict the final answer even if the sub-questions or sub-answers provide insufficient information. We address these limitations via IdealGPT, a framework that iteratively decomposes VL reasoning using large language models (LLMs). Specifically, IdealGPT utilizes an LLM to generate sub-questions, a VLM to provide corresponding sub-answers, and another LLM to reason to achieve the final answer. These three modules perform the divide-and-conquer procedure iteratively until the model is confident about the final answer to the main question. We evaluate IdealGPT on multiple challenging VL reasoning tasks under a zero-shot setting. In particular, our IdealGPT outperforms the best existing GPT-4-like models by an absolute 10% on VCR and 15% on SNLI-VE. Code is available at this https URL}
 }
 
+@article{ayyubi2024mmevents,
+    abbr={beyond_grounding.png},
+    title={Beyond Grounding: Extracting Fine-Grained Event Hierarchies across Modalities},
+    author={Hammad A. Ayyubi and Christopher Thomas and Lovish Chum and Rahul Lokesh and Long Chen and Yulei Niu and Xudong Lin and Xuande Feng and Jaywon Koo and Sounak Ray and Shih-Fu Chang},
+    year={2024},
+    journal={AAAI},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/29718},
+    html={https://ojs.aaai.org/index.php/AAAI/article/view/29718},
+    abstract={Events describe happenings in our world that are of importance. Naturally, understanding events mentioned in multimedia content and how they are related forms an important way of comprehending our world. Existing literature can infer if events across textual and visual (video) domains are identical (via grounding) and thus, on the same semantic level. However, grounding fails to capture the intricate cross-event relations that exist due to the same events being referred to on many semantic levels. For example, the abstract event of "war'' manifests at a lower semantic level through subevents "tanks firing'' (in video) and airplane "shot'' (in text), leading to a hierarchical, multimodal relationship between the events. In this paper, we propose the task of extracting event hierarchies from multimodal (video and text) data to capture how the same event manifests itself in different modalities at different semantic levels. This reveals the structure of events and is critical to understanding them. To support research on this task, we introduce the Multimodal Hierarchical Events (MultiHiEve) dataset. Unlike prior video-language datasets, MultiHiEve is composed of news video-article pairs, which makes it rich in event hierarchies. We densely annotate a part of the dataset to construct the test benchmark. We show the limitations of state-of-the-art unimodal and multimodal baselines on this task. Further, we address these limitations via a new weakly supervised model, leveraging only unannotated video-article pairs from MultiHiEve. We perform a thorough evaluation of our proposed method which demonstrates improved performance on this task and highlight opportunities for future research. Data: https://github.com/hayyubi/multihieve}
+}
 
+@article{liu2024cara,
+    abbr={cara_2024.png},
+    title={Detecting Multimodal Situations with Insufficient Context and Abstaining from Baseless Predictions},
+    author={Junzhang Liu and Zhecan Wang and Hammad Ayyubi and Haoxuan You and Chris Thomas and Rui Sun and Shih-Fu Chang and Kai-Wei Chang},
+    year={2024},
+    journal={ACM MM},
+    url={https://arxiv.org/pdf/2405.11145},
+    html={https://arxiv.org/pdf/2405.11145},
+    abstract={Despite the widespread adoption of Vision-Language Understanding (VLU) benchmarks such as VQA v2, OKVQA, A-OKVQA, GQA, VCR, SWAG, and VisualCOMET, our analysis reveals a pervasive issue affecting their integrity: these benchmarks contain samples where answers rely on assumptions unsupported by the provided context. Training models on such data foster biased learning and hallucinations as models tend to make similar unwarranted assumptions. To address this issue, we collect contextual data for each sample whenever available and train a context selection module to facilitate evidence-based model predictions. Strong improvements across multiple benchmarks demonstrate the effectiveness of our approach. Further, we develop a general-purpose Context-AwaRe Abstention (CARA) detector to identify samples lacking sufficient context and enhance model accuracy by abstaining from responding if the required context is absent. CARA exhibits generalization to new benchmarks it wasn't trained on, underscoring its utility for future VLU benchmarks in detecting or cleaning samples with inadequate context. Finally, we curate a Context Ambiguity and Sufficiency Evaluation (CASE) set to benchmark the performance of insufficient context detectors. Overall, our work represents a significant advancement in ensuring that vision-language models generate trustworthy and evidence-based outputs in complex real-world scenarios.}
+}
+
+@article{zare2024rap,
+    abbr={rap_2024.png},
+    title={RAP: Retrieval-Augmented Planner for Adaptive Procedure Planning in Instructional Videos},
+    author={Ali Zare and Yulei Niu and Hammad Ayyubi and Shih-Fu Chang},
+    year={2024},
+    journal={ECCV},
+    url={https://arxiv.org/pdf/2403.18600},
+    html={https://arxiv.org/pdf/2403.18600},
+    abstract={Procedure Planning in instructional videos entails generating a sequence of action steps based on visual observations of the initial and target states. Despite the rapid progress in this task, there remain several critical challenges to be solved: (1) Adaptive procedures: Prior works hold an unrealistic assumption that the number of action steps is known and fixed, leading to non-generalizable models in real-world scenarios where the sequence length varies. (2) Temporal relation: Understanding the step temporal relation knowledge is essential in producing reasonable and executable plans. (3) Annotation cost: Annotating instructional videos with step-level labels (i.e., timestamp) or sequence-level labels (i.e., action category) is demanding and labor-intensive, limiting its generalizability to large-scale datasets.In this work, we propose a new and practical setting, called adaptive procedure planning in instructional videos, where the procedure length is not fixed or pre-determined. To address these challenges we introduce Retrieval-Augmented Planner (RAP) model. Specifically, for adaptive procedures, RAP adaptively determines the conclusion of actions using an auto-regressive model architecture. For temporal relation, RAP establishes an external memory module to explicitly retrieve the most relevant state-action pairs from the training videos and revises the generated procedures. To tackle high annotation cost, RAP utilizes a weakly-supervised learning manner to expand the training dataset to other task-relevant, unannotated videos by generating pseudo labels for action steps. Experiments on CrossTask and COIN benchmarks show the  superiority of RAP over traditional fixed-length models, establishing it as a strong baseline solution for adaptive procedure planning.}
+}

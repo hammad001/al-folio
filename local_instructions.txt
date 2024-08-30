@@ -1,0 +1,27 @@
+# Version Control
+All changes and source code is in source branch. Final deployment is in master branch.
+
+# To deploy changes
+- Make sure you are on source branch, then run
+- ./bin/deploy --user
+
+# To change About information
+Change the Description in _pages/about.md
+
+# To add news
+Add a new announcement in _news folder
+
+# To change #news items
+Change the news_limit parameter in _config.yml file
+
+# To add publication
+- Add a new @article entry in _bibliography/papers.bib file
+- Add image in assets/img
+- If required add the year in _pages/publications.md
+
+# To update resume
+Change resume in assets/pdf. The name of the file should be Ayyubi_Hammad_Resume.pdf
+** The resume name is configured in _includes/header.html
+
+# To change teaching page
+Add rows in _pages/teaching.md
