@@ -1,6 +1,9 @@
 # Version Control
 All changes and source code is in source branch. Final deployment is in master branch.
 
+# To start a local server
+bundle exec jekyll serve
+
 # To deploy changes
 - Make sure you are on source branch, then run
 - ./bin/deploy --user

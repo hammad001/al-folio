@@ -23,3 +23,5 @@ My research interests focuses on Computer Vision, Natural Language Processing an
 I have been fortunate to have worked with some amazing people via internships at Microsoft, Google and Adobe -- [Jianwei Yang](https://jwyang.github.io/), [Oriana Riva](https://scholar.google.com/citations?user=Eo7-pZ4AAAAJ&hl=en), [Tianqi Liu](https://scholar.google.com/citations?user=pUKhiMIAAAAJ&hl=en), [Arsha Nagrani](https://a-nagrani.github.io/), [Mingda Zhang](https://people.cs.pitt.edu/~mzhang/), [Anurag Arnab](https://anuragarnab.github.io/), and [Vlad Morariu](https://research.adobe.com/person/vlad-morariu/).
 
 Prior to joining Columbia, I finished my Master's at UC San Diego, advised by [Prof. Gary Cottrell](https://cseweb.ucsd.edu/~gary/). I also worked with [Prof. Manmohan Chandraker](https://cseweb.ucsd.edu/~mkchandraker/) and [Prof. David Kriegman](https://cseweb.ucsd.edu/~kriegman/) during that time. I finished my Bachelor's at Indian Institute of Technology, BHU ([IIT, BHU](https://www.iitbhu.ac.in/)).
+
+**I am on industry job market. If you are interested, feel free to reach out.**
