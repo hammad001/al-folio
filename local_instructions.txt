@@ -28,3 +28,6 @@ Change resume in assets/pdf. The name of the file should be Ayyubi_Hammad_Resume
 
 # To change teaching page
 Add rows in _pages/teaching.md
+
+# To change alumni page
+Add rows in _pages/alumni.md
